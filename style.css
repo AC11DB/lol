@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+h1,
+h2,
+a {
+  color: white;
+}
+p {
+  color: rebeccapurple;
+  max-width: 65ch;
+}
+
+header,
+section {
+  padding: 10px;
+}

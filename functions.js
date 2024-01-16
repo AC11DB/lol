@@ -1,16 +1,17 @@
 
-  const userGroup = [
+  const users = [
+   {
     userId: 1234,
     firstName: "Angel",
     lastName: "Cadiz",
     isActive: true,
-  },
-   const userTwo = {
+   },
+    const userTwo = {
     userId: 1235,
     firstName: "Copernicus",
     lastName: "Sees the Stars",
     isActive: false,
-  };
+   };
    const userThree = {
     userId: 1236,
     firstName: "Sally",
@@ -25,27 +26,25 @@ function printUser(user) {
 }
 
 function getFullName(user) {
-  const fullName = user.firstName + " " + user.lastName;
-  return fullName;
+  return user.fullName = user.firstName + " " + user.lastName;
 }
 
-printUser(userGroup[0]);
-
-for (const user in userGroup) {
-  printUser(user);
-}
-
-function isActiveUser(user) {
-  if(user.status === true) {
-    console.log(true);
+function isUserStatusActive(user) {
+  if (user.status === true) {
     return true;
   } else {
     return false;
   }
 }
+let activeUser = isUserStatusActive(users[0]);
+
+console.log(activeUser);
 
 //function invocation
-isActiveUser(users[0]);
+isUserStatusActive(users[0]);
 
+//invoke and assign the result to a variable
 const userTwoName = getFullName(users[2]);
+
+//log the variable
 console.log(userTwoName);

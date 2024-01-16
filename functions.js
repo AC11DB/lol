@@ -24,7 +24,11 @@ function printUser(user) {
   console.log(user);
 }
 
-//function invocation
+function getFullName(user) {
+  const fullName = user.firstName + " " + user.lastName;
+  return fullName;
+}
+
 printUser(userGroup[0]);
 
 for (const user in userGroup) {
@@ -39,3 +43,9 @@ function isActiveUser(user) {
     return false;
   }
 }
+
+//function invocation
+isActiveUser(users[0]);
+
+const userTwoName = getFullName(users[2]);
+console.log(userTwoName);

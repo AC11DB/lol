@@ -25,7 +25,7 @@ function printUser(user) {
 }
 
 function getFullName(user) {
-  return user.fullName = user.firstName + " " + user.lastName;
+  return user.fullName = "AT SAIT " + user.firstName + " " + user.lastName;
 }
 
 function isUserStatusActive(user) {

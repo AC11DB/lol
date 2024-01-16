@@ -18,6 +18,7 @@ const userThree = {
 };
 
 //const user = [userOne, userTwo, userThree];
+//much better down below
 const user = [
   {
   userId: 1234,
@@ -38,3 +39,5 @@ const user = [
   isActive: true,
   }
 ];
+
+console.log(user[1].firstName, user[2].lastName);

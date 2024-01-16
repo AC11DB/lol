@@ -1,6 +1,6 @@
 const firstName = "Angel";
-const lastname = "Cadiz";
+const lastName = "Cadiz";
 let isActive = true;
 const userId = 2123;
 
-console.log(firstName);
+console.log('User ${userId}: ${firstName}: ${lastName}: ${isActive}. Zaboomafoo');

@@ -6,13 +6,13 @@
     lastName: "Cadiz",
     isActive: true,
    },
-    const userTwo = {
+   {
     userId: 1235,
     firstName: "Copernicus",
     lastName: "Sees the Stars",
     isActive: false,
-   };
-   const userThree = {
+   },
+   {
     userId: 1236,
     firstName: "Sally",
     lastName: "Fields",

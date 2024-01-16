@@ -1,16 +1,16 @@
 const firstName = "Angel";
 const lastName = "Cadiz";
 let isActive = true;
-let userId = 
-const userId = 2123;
+let userId = 2123;
+let userIdTwo = 2123;
 
-is (isActive === true) {
-  console.log(""the user is active);
+if (isActive === true) {
+  console.log("the user is active");
 } else {
   console.log("the user is not active");
 }
 
-if (firstName === "Lindsay") {
+if (firstName === "Lindsey") {
   console.log(`First name is Lindsay`)
 } else {
   console.log(`First name is ${firstName}`)
